@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(211, 202, 202);
+    color: white;
+    font-family: 'Dancing Script'
 }
 
 .container {
-    background: black;
+    background: white;
     display: inline-block;
-    border: 5px solid black;
+    border: 5px solid rgb(211, 202, 202);
     position: absolute;
     left: 50%;
     top: 50%;
@@ -29,19 +32,38 @@
     font-family: Arial;
     font-size: 3rem;
     font-weight: bold;
-    background: white;
+    background: grey;
+    z-index: 1500;
+    box-shadow: 0 1rem 2rem rgb($color-black);
 }
 
 .button {
     position: absolute;
     left: 50%;
-    top: 80%;
+    top: 85%;
     transform: translate(-50%, -50%);
+    color: rgb(78, 72, 72);
+    border: solid 2px;
+    height: 3rem;
+    width: 7rem;
+    font-size: 1.5rem;
+    font-family: 'Dancing Script';
 }
 
 .winner {
     position: absolute;
     left: 50%;
-    top: 10%;
+    top: 22%;
     transform: translate(-50%, -50%);
+}
+
+.header {
+    text-align: center;
+    color: rgb(78, 72, 72);
+    font-size: 3rem;
+}
+
+.header2 {
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
